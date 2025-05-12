@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
+		CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */; };
+		CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F4E52DD26850006A98F8 /* Assets.xcassets */; };
+		CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4ED2DD26878006A98F8 /* TextView.swift */; };
+		CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CB01009F2DD253DD005B1BA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +35,14 @@
 		CB0100912DD253DC005B1BA1 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB01009E2DD253DD005B1BA1 /* SwiftUILearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB3F4E62DD26850006A98F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
+		CBB3F4ED2DD26878006A98F8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CB0100932DD253DC005B1BA1 /* SwiftUILearning */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUILearning;
-			sourceTree = "<group>";
-		};
 		CB0100A12DD253DD005B1BA1 /* SwiftUILearningTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftUILearningTests;
@@ -75,7 +83,7 @@
 		CB0100882DD253DC005B1BA1 = {
 			isa = PBXGroup;
 			children = (
-				CB0100932DD253DC005B1BA1 /* SwiftUILearning */,
+				CBB3F4E82DD26850006A98F8 /* SwiftUILearning */,
 				CB0100A12DD253DD005B1BA1 /* SwiftUILearningTests */,
 				CB0100AB2DD253DD005B1BA1 /* SwiftUILearningUITests */,
 				CB0100922DD253DC005B1BA1 /* Products */,
@@ -92,6 +100,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4EC2DD2685C006A98F8 /* UIComponents */,
+				CBB3F4E52DD26850006A98F8 /* Assets.xcassets */,
+				CBB3F4E62DD26850006A98F8 /* ContentView.swift */,
+				CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */,
+			);
+			path = SwiftUILearning;
+			sourceTree = "<group>";
+		};
+		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4ED2DD26878006A98F8 /* TextView.swift */,
+				CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +134,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CB0100932DD253DC005B1BA1 /* SwiftUILearning */,
 			);
 			name = SwiftUILearning;
 			packageProductDependencies = (
@@ -212,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
+				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
+				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
+				CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
