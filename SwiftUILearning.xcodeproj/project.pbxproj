@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */; };
+		CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */; };
 		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
 		CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */; };
 		CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F4E52DD26850006A98F8 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		CB0100912DD253DC005B1BA1 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB01009E2DD253DD005B1BA1 /* SwiftUILearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors_ColorsLiterals_HexColors.swift; sourceTree = "<group>"; };
+		CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Radical_Angular_Gradients.swift; sourceTree = "<group>"; };
 		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB3F4E62DD26850006A98F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
@@ -100,6 +104,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CB3071DD2DD3B09E00ADDFC7 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */,
+				CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB3071DD2DD3B09E00ADDFC7 /* Colors */,
 				CBB3F4ED2DD26878006A98F8 /* TextView.swift */,
 				CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */,
 			);
@@ -262,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
+				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
 				CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
