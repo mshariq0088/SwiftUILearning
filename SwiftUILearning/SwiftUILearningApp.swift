@@ -12,7 +12,8 @@ struct SwiftUILearningApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            ShapesView()
+           // ShapesView()
+            FrameView()
         }
     }
 }
