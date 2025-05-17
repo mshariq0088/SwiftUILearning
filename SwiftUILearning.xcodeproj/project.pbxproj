@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */; };
+		CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */; };
 		CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */; };
 		CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */; };
 		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
@@ -37,6 +39,8 @@
 		CB0100912DD253DC005B1BA1 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB01009E2DD253DD005B1BA1 /* SwiftUILearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcon_MultiColorIcon_SFSymbol.swift; sourceTree = "<group>"; };
+		CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImages.swift; sourceTree = "<group>"; };
 		CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors_ColorsLiterals_HexColors.swift; sourceTree = "<group>"; };
 		CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Radical_Angular_Gradients.swift; sourceTree = "<group>"; };
 		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +108,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CB1C76D42DD87C2500DBDAB0 /* ImagesAndSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */,
+				CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */,
+			);
+			path = ImagesAndSymbols;
+			sourceTree = "<group>";
+		};
+		CB1C76D72DD87FCF00DBDAB0 /* TextAndShapes */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4ED2DD26878006A98F8 /* TextView.swift */,
+				CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */,
+			);
+			path = TextAndShapes;
+			sourceTree = "<group>";
+		};
 		CB3071DD2DD3B09E00ADDFC7 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,9 +149,9 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB1C76D42DD87C2500DBDAB0 /* ImagesAndSymbols */,
 				CB3071DD2DD3B09E00ADDFC7 /* Colors */,
-				CBB3F4ED2DD26878006A98F8 /* TextView.swift */,
-				CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */,
+				CB1C76D72DD87FCF00DBDAB0 /* TextAndShapes */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -278,9 +300,11 @@
 			files = (
 				CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
+				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
+				CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */,
 				CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
