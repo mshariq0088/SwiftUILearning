@@ -37,4 +37,5 @@ struct OverlayUseInNotificationBedgeView: View {
 
 #Preview {
     OverlayUseInNotificationBedgeView()
+        .preferredColorScheme(.light)
 }
