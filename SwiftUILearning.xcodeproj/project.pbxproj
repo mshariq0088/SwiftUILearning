@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */; };
+		CB09DB632DDCFAE000BE30F7 /* SpacerWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */; };
 		CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */; };
 		CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */; };
 		CB1C76E82DD896DA00DBDAB0 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76E72DD896DA00DBDAB0 /* FrameView.swift */; };
@@ -50,6 +52,8 @@
 		CB0100912DD253DC005B1BA1 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB01009E2DD253DD005B1BA1 /* SwiftUILearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerWithImages.swift; sourceTree = "<group>"; };
 		CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcon_MultiColorIcon_SFSymbol.swift; sourceTree = "<group>"; };
 		CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImages.swift; sourceTree = "<group>"; };
 		CB1C76E72DD896DA00DBDAB0 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
@@ -217,6 +221,8 @@
 			children = (
 				CBDB853E2DDBB2A10007F538 /* PaddingView.swift */,
 				CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */,
+				CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */,
+				CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */,
 			);
 			path = PaddingAndSpacer;
 			sourceTree = "<group>";
@@ -371,8 +377,10 @@
 				CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */,
 				CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */,
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
+				CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */,
 				CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */,
 				CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */,
+				CB09DB632DDCFAE000BE30F7 /* SpacerWithImages.swift in Sources */,
 				CB1C76E82DD896DA00DBDAB0 /* FrameView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
