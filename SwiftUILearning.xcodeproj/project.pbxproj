@@ -16,6 +16,7 @@
 		CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76EC2DD91BB100DBDAB0 /* OverlayInCircleView.swift */; };
 		CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76EE2DD91C2200DBDAB0 /* OverlayInRectangleView.swift */; };
 		CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */; };
+		CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */; };
 		CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */; };
 		CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */; };
 		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
@@ -61,6 +62,7 @@
 		CB1C76EC2DD91BB100DBDAB0 /* OverlayInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayInCircleView.swift; sourceTree = "<group>"; };
 		CB1C76EE2DD91C2200DBDAB0 /* OverlayInRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayInRectangleView.swift; sourceTree = "<group>"; };
 		CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayUseInNotificationBedgeView.swift; sourceTree = "<group>"; };
+		CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerAndEnumView.swift; sourceTree = "<group>"; };
 		CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors_ColorsLiterals_HexColors.swift; sourceTree = "<group>"; };
 		CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Radical_Angular_Gradients.swift; sourceTree = "<group>"; };
 		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -171,6 +173,14 @@
 			path = BackgroundAndOverlays;
 			sourceTree = "<group>";
 		};
+		CB1FDB442DDE4D2D007C4347 /* InitializersAndEnums */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */,
+			);
+			path = InitializersAndEnums;
+			sourceTree = "<group>";
+		};
 		CB3071DD2DD3B09E00ADDFC7 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,7 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB1FDB442DDE4D2D007C4347 /* InitializersAndEnums */,
 				CBDB853D2DDBB1210007F538 /* PaddingAndSpacer */,
 				CBDB85342DDBA0D40007F538 /* Stacks */,
 				CB1C76E92DD90FAF00DBDAB0 /* BackgroundAndOverlays */,
@@ -374,6 +385,7 @@
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB1C76EB2DD90FD700DBDAB0 /* BackgroundView.swift in Sources */,
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
+				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */,
 				CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */,
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
