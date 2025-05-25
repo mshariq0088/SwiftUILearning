@@ -36,6 +36,10 @@
 		CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB853B2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift */; };
 		CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB853E2DDBB2A10007F538 /* PaddingView.swift */; };
 		CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */; };
+		CBEED5472DE234A300BF1F05 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5462DE234A300BF1F05 /* SafeAreaView.swift */; };
+		CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5482DE2386000BF1F05 /* SafeAreaWithScrollView.swift */; };
+		CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED54B2DE23F1F00BF1F05 /* ButtonView.swift */; };
+		CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */; };
 		CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +93,10 @@
 		CBDB853B2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_VStack_HStack_View.swift; sourceTree = "<group>"; };
 		CBDB853E2DDBB2A10007F538 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingWithVStack.swift; sourceTree = "<group>"; };
+		CBEED5462DE234A300BF1F05 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
+		CBEED5482DE2386000BF1F05 /* SafeAreaWithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaWithScrollView.swift; sourceTree = "<group>"; };
+		CBEED54B2DE23F1F00BF1F05 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVariableView.swift; sourceTree = "<group>"; };
 		CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,6 +236,9 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CBEED54D2DE2488000BF1F05 /* States */,
+				CBEED54A2DE23F1400BF1F05 /* Button */,
+				CBEED5452DE2348B00BF1F05 /* SafeArea */,
 				CB8061A62DE0F20D0005E524 /* LazyGrids */,
 				CBF750912DDF919800DC88E1 /* ScrollView */,
 				CBF7508E2DDF878A00DC88E1 /* ForEachLoop */,
@@ -263,6 +274,31 @@
 				CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */,
 			);
 			path = PaddingAndSpacer;
+			sourceTree = "<group>";
+		};
+		CBEED5452DE2348B00BF1F05 /* SafeArea */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5462DE234A300BF1F05 /* SafeAreaView.swift */,
+				CBEED5482DE2386000BF1F05 /* SafeAreaWithScrollView.swift */,
+			);
+			path = SafeArea;
+			sourceTree = "<group>";
+		};
+		CBEED54A2DE23F1400BF1F05 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED54B2DE23F1F00BF1F05 /* ButtonView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		CBEED54D2DE2488000BF1F05 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 		CBF7508E2DDF878A00DC88E1 /* ForEachLoop */ = {
@@ -427,7 +463,9 @@
 			files = (
 				CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
+				CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */,
 				CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */,
+				CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB1C76EB2DD90FD700DBDAB0 /* BackgroundView.swift in Sources */,
 				CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */,
@@ -441,11 +479,13 @@
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
 				CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */,
 				CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */,
+				CBEED5472DE234A300BF1F05 /* SafeAreaView.swift in Sources */,
 				CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */,
 				CB09DB632DDCFAE000BE30F7 /* SpacerWithImages.swift in Sources */,
 				CB1C76E82DD896DA00DBDAB0 /* FrameView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
+				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
 				CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */,
 				CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */,
