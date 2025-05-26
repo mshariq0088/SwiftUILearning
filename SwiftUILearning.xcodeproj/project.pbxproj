@@ -17,6 +17,8 @@
 		CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76EE2DD91C2200DBDAB0 /* OverlayInRectangleView.swift */; };
 		CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */; };
 		CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */; };
+		CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */; };
+		CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E553E2DE4E63700687E19 /* BindingProperties.swift */; };
 		CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */; };
 		CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */; };
 		CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */; };
@@ -75,6 +77,8 @@
 		CB1C76EE2DD91C2200DBDAB0 /* OverlayInRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayInRectangleView.swift; sourceTree = "<group>"; };
 		CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayUseInNotificationBedgeView.swift; sourceTree = "<group>"; };
 		CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerAndEnumView.swift; sourceTree = "<group>"; };
+		CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
+		CB2E553E2DE4E63700687E19 /* BindingProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperties.swift; sourceTree = "<group>"; };
 		CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors_ColorsLiterals_HexColors.swift; sourceTree = "<group>"; };
 		CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Radical_Angular_Gradients.swift; sourceTree = "<group>"; };
 		CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
@@ -205,6 +209,14 @@
 			path = InitializersAndEnums;
 			sourceTree = "<group>";
 		};
+		CB2E553D2DE4E43D00687E19 /* BindingPropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E553E2DE4E63700687E19 /* BindingProperties.swift */,
+			);
+			path = BindingPropertyWrapper;
+			sourceTree = "<group>";
+		};
 		CB3071DD2DD3B09E00ADDFC7 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */,
+				CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */,
 			);
 			path = FunctionaAndViews;
 			sourceTree = "<group>";
@@ -246,8 +259,9 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB2E553D2DE4E43D00687E19 /* BindingPropertyWrapper */,
 				CB87D8962DE38EFF002C94D1 /* FunctionaAndViews */,
-				CBEED54D2DE2488000BF1F05 /* States */,
+				CBEED54D2DE2488000BF1F05 /* StatePropertyWrapper */,
 				CBEED54A2DE23F1400BF1F05 /* Button */,
 				CBEED5452DE2348B00BF1F05 /* SafeArea */,
 				CB8061A62DE0F20D0005E524 /* LazyGrids */,
@@ -304,12 +318,12 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
-		CBEED54D2DE2488000BF1F05 /* States */ = {
+		CBEED54D2DE2488000BF1F05 /* StatePropertyWrapper */ = {
 			isa = PBXGroup;
 			children = (
 				CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */,
 			);
-			path = States;
+			path = StatePropertyWrapper;
 			sourceTree = "<group>";
 		};
 		CBF7508E2DDF878A00DC88E1 /* ForEachLoop */ = {
@@ -474,6 +488,7 @@
 			files = (
 				CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
+				CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */,
 				CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */,
 				CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */,
 				CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */,
@@ -485,6 +500,7 @@
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
+				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
 				CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */,
 				CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */,
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,

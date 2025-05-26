@@ -26,13 +26,13 @@ struct StateVariableView: View {
                     .font(.caption)
                 
                 HStack(spacing: 20) {
-                    Button("Button 1") {
+                    Button("Red Button") {
                         backgroundColor = .red
                         myTitle = "My Background Color is Red"
                         count += 1
                     }
                     
-                    Button("Button 2") {
+                    Button("Purple Button") {
                         backgroundColor = .purple
                         myTitle = "My Background Color is Purple"
                         count -= 1
