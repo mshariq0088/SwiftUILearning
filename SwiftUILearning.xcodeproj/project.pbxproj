@@ -37,6 +37,8 @@
 		CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F4E52DD26850006A98F8 /* Assets.xcassets */; };
 		CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4ED2DD26878006A98F8 /* TextView.swift */; };
 		CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */; };
+		CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */; };
+		CBC79CF02DE787F700203C80 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CEF2DE787F700203C80 /* TransitionView.swift */; };
 		CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85352DDBA1F10007F538 /* VStackView.swift */; };
 		CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85372DDBA2C10007F538 /* HStackView.swift */; };
 		CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85392DDBA3780007F538 /* ZStackView.swift */; };
@@ -101,6 +103,8 @@
 		CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		CBB3F4ED2DD26878006A98F8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewWithTiming.swift; sourceTree = "<group>"; };
+		CBC79CEF2DE787F700203C80 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		CBDB85352DDBA1F10007F538 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		CBDB85372DDBA2C10007F538 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		CBDB85392DDBA3780007F538 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -246,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				CB2F31C52DE6360000A96DC6 /* AnimationView.swift */,
+				CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */,
+				CBC79CEF2DE787F700203C80 /* TransitionView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -539,6 +545,7 @@
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
 				CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */,
+				CBC79CF02DE787F700203C80 /* TransitionView.swift in Sources */,
 				CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */,
 				CB2F31C02DE62DB700A96DC6 /* LoadingView.swift in Sources */,
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
@@ -553,6 +560,7 @@
 				CB2F31BE2DE628CD00A96DC6 /* ConditionalStatement.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
+				CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */,
 				CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */,
 				CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */,
 				CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */,
