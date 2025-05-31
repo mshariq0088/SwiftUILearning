@@ -16,6 +16,7 @@
 		CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76EC2DD91BB100DBDAB0 /* OverlayInCircleView.swift */; };
 		CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76EE2DD91C2200DBDAB0 /* OverlayInRectangleView.swift */; };
 		CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */; };
+		CB1E535C2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E535B2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift */; };
 		CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */; };
 		CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */; };
 		CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E553E2DE4E63700687E19 /* BindingProperties.swift */; };
@@ -84,6 +85,7 @@
 		CB1C76EC2DD91BB100DBDAB0 /* OverlayInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayInCircleView.swift; sourceTree = "<group>"; };
 		CB1C76EE2DD91C2200DBDAB0 /* OverlayInRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayInRectangleView.swift; sourceTree = "<group>"; };
 		CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayUseInNotificationBedgeView.swift; sourceTree = "<group>"; };
+		CB1E535B2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAndNavigationLink.swift; sourceTree = "<group>"; };
 		CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerAndEnumView.swift; sourceTree = "<group>"; };
 		CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
 		CB2E553E2DE4E63700687E19 /* BindingProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperties.swift; sourceTree = "<group>"; };
@@ -217,6 +219,14 @@
 			path = BackgroundAndOverlays;
 			sourceTree = "<group>";
 		};
+		CB1E535A2DEB729700257949 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E535B2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
 		CB1FDB442DDE4D2D007C4347 /* InitializersAndEnums */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +328,7 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB1E535A2DEB729700257949 /* Navigations */,
 				CB6D2E5C2DE8DC46008B6F3D /* PopOverView */,
 				CB6D2E592DE8CE3A008B6F3D /* Sheets */,
 				CB2F31C42DE635F000A96DC6 /* Animations */,
@@ -556,6 +567,7 @@
 				CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */,
 				CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */,
 				CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */,
+				CB1E535C2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift in Sources */,
 				CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB1C76EB2DD90FD700DBDAB0 /* BackgroundView.swift in Sources */,
