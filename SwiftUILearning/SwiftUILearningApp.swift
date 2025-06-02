@@ -14,6 +14,7 @@ struct SwiftUILearningApp: App {
 //            ContentView()
            // ShapesView()
             VerticalScrollView()
+            //ListView()
         }
     }
 }
