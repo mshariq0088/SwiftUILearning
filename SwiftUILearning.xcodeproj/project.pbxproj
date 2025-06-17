@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */; };
 		CB09DB632DDCFAE000BE30F7 /* SpacerWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */; };
+		CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40CE2E01D5DC00173F9B /* ToggleButton.swift */; };
+		CB0F40D22E01D98F00173F9B /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D12E01D98F00173F9B /* PickerView.swift */; };
+		CB0F40D42E01DDD300173F9B /* PickerMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D32E01DDD300173F9B /* PickerMenuExample.swift */; };
+		CB0F40D62E01E26C00173F9B /* PickerSegmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D52E01E26C00173F9B /* PickerSegmentExample.swift */; };
+		CB0F40D82E01E73500173F9B /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D72E01E73500173F9B /* ColorPickerView.swift */; };
 		CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */; };
 		CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */; };
 		CB1C76E82DD896DA00DBDAB0 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76E72DD896DA00DBDAB0 /* FrameView.swift */; };
@@ -86,6 +91,11 @@
 		CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerWithImages.swift; sourceTree = "<group>"; };
+		CB0F40CE2E01D5DC00173F9B /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		CB0F40D12E01D98F00173F9B /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		CB0F40D32E01DDD300173F9B /* PickerMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerMenuExample.swift; sourceTree = "<group>"; };
+		CB0F40D52E01E26C00173F9B /* PickerSegmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSegmentExample.swift; sourceTree = "<group>"; };
+		CB0F40D72E01E73500173F9B /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcon_MultiColorIcon_SFSymbol.swift; sourceTree = "<group>"; };
 		CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImages.swift; sourceTree = "<group>"; };
 		CB1C76E72DD896DA00DBDAB0 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
@@ -196,6 +206,25 @@
 				CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0F40CD2E01D5CC00173F9B /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F40CE2E01D5DC00173F9B /* ToggleButton.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
+		CB0F40D02E01D98200173F9B /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F40D12E01D98F00173F9B /* PickerView.swift */,
+				CB0F40D32E01DDD300173F9B /* PickerMenuExample.swift */,
+				CB0F40D52E01E26C00173F9B /* PickerSegmentExample.swift */,
+				CB0F40D72E01E73500173F9B /* ColorPickerView.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 		CB1C76D42DD87C2500DBDAB0 /* ImagesAndSymbols */ = {
@@ -361,6 +390,8 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB0F40D02E01D98200173F9B /* Picker */,
+				CB0F40CD2E01D5CC00173F9B /* Toggle */,
 				CB6372C12DFB469A00356C44 /* TextFields */,
 				CBEABB632DF0C59600636F83 /* ContextMenu */,
 				CBBFC48F2DF0B61B00961BC9 /* ActionSheet */,
@@ -626,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */,
+				CB0F40D82E01E73500173F9B /* ColorPickerView.swift in Sources */,
 				CB2F31C62DE6360000A96DC6 /* AnimationView.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
 				CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */,
@@ -633,6 +665,7 @@
 				CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */,
 				CB1E535C2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift in Sources */,
 				CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */,
+				CB0F40D42E01DDD300173F9B /* PickerMenuExample.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB1C76EB2DD90FD700DBDAB0 /* BackgroundView.swift in Sources */,
 				CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */,
@@ -641,6 +674,7 @@
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
+				CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */,
 				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
 				CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */,
 				CBC79CF02DE787F700203C80 /* TransitionView.swift in Sources */,
@@ -659,9 +693,11 @@
 				CBBE3E042DEF6DD5003FB0BD /* CustomAlertView.swift in Sources */,
 				CB7EAA532DEE11AF003FE096 /* ListView.swift in Sources */,
 				CBEABB622DF0BBD400636F83 /* DynamicActionSheetView.swift in Sources */,
+				CB0F40D62E01E26C00173F9B /* PickerSegmentExample.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,
+				CB0F40D22E01D98F00173F9B /* PickerView.swift in Sources */,
 				CB2F31BE2DE628CD00A96DC6 /* ConditionalStatement.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
