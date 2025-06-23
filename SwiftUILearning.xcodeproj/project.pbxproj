@@ -70,6 +70,8 @@
 		CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5482DE2386000BF1F05 /* SafeAreaWithScrollView.swift */; };
 		CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED54B2DE23F1F00BF1F05 /* ButtonView.swift */; };
 		CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */; };
+		CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF44B2E09C23500A33754 /* OnAppearsView.swift */; };
+		CBEEF4502E09C98500A33754 /* IfLetGuardLetStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */; };
 		CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +159,8 @@
 		CBEED5482DE2386000BF1F05 /* SafeAreaWithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaWithScrollView.swift; sourceTree = "<group>"; };
 		CBEED54B2DE23F1F00BF1F05 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVariableView.swift; sourceTree = "<group>"; };
+		CBEEF44B2E09C23500A33754 /* OnAppearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearsView.swift; sourceTree = "<group>"; };
+		CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardLetStatement.swift; sourceTree = "<group>"; };
 		CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -415,6 +419,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CBEEF44D2E09C7AE00A33754 /* Statements */,
 				CBB3F4EC2DD2685C006A98F8 /* UIComponents */,
 				CBB3F4E52DD26850006A98F8 /* Assets.xcassets */,
 				CBB3F4E62DD26850006A98F8 /* ContentView.swift */,
@@ -426,6 +431,7 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CBEEF44A2E09C21100A33754 /* AppearsAndDisappears */,
 				CB700A2D2E048C5600E53774 /* TabView */,
 				CB8228972E0337D3008F78F3 /* Slider */,
 				CB8228942E03327E008F78F3 /* Stepper */,
@@ -533,6 +539,30 @@
 				CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */,
 			);
 			path = StatePropertyWrapper;
+			sourceTree = "<group>";
+		};
+		CBEEF44A2E09C21100A33754 /* AppearsAndDisappears */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEF44B2E09C23500A33754 /* OnAppearsView.swift */,
+			);
+			path = AppearsAndDisappears;
+			sourceTree = "<group>";
+		};
+		CBEEF44D2E09C7AE00A33754 /* Statements */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEF44E2E09C95800A33754 /* IfLetAndGuardLetStatement */,
+			);
+			path = Statements;
+			sourceTree = "<group>";
+		};
+		CBEEF44E2E09C95800A33754 /* IfLetAndGuardLetStatement */ = {
+			isa = PBXGroup;
+			children = (
+				CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */,
+			);
+			path = IfLetAndGuardLetStatement;
 			sourceTree = "<group>";
 		};
 		CBF7508E2DDF878A00DC88E1 /* ForEachLoop */ = {
@@ -713,6 +743,7 @@
 				CB8061AE2DE101870005E524 /* LazyHGridViewExample.swift in Sources */,
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
+				CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */,
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */,
 				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
@@ -738,6 +769,7 @@
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,
 				CB0F40D22E01D98F00173F9B /* PickerView.swift in Sources */,
+				CBEEF4502E09C98500A33754 /* IfLetGuardLetStatement.swift in Sources */,
 				CB2F31BE2DE628CD00A96DC6 /* ConditionalStatement.swift in Sources */,
 				CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
