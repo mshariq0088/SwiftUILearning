@@ -48,6 +48,8 @@
 		CB8228962E033298008F78F3 /* StepperButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228952E033298008F78F3 /* StepperButtonView.swift */; };
 		CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228982E0337DE008F78F3 /* SliderView.swift */; };
 		CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */; };
+		CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */; };
+		CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0442E0B2491007A8F61 /* UserModelView.swift */; };
 		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
 		CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */; };
 		CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F4E52DD26850006A98F8 /* Assets.xcassets */; };
@@ -137,6 +139,8 @@
 		CB8228952E033298008F78F3 /* StepperButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperButtonView.swift; sourceTree = "<group>"; };
 		CB8228982E0337DE008F78F3 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionAndViews.swift; sourceTree = "<group>"; };
+		CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		CBA3E0442E0B2491007A8F61 /* UserModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelView.swift; sourceTree = "<group>"; };
 		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB3F4E62DD26850006A98F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
@@ -416,9 +420,26 @@
 			path = FunctionaAndViews;
 			sourceTree = "<group>";
 		};
+		CBA3E0402E0B1B05007A8F61 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		CBA3E0432E0B246B007A8F61 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				CBA3E0442E0B2491007A8F61 /* UserModelView.swift */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CBA3E0432E0B246B007A8F61 /* ModelClass */,
 				CBEEF44D2E09C7AE00A33754 /* Statements */,
 				CBB3F4EC2DD2685C006A98F8 /* UIComponents */,
 				CBB3F4E52DD26850006A98F8 /* Assets.xcassets */,
@@ -431,6 +452,7 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CBA3E0402E0B1B05007A8F61 /* Gestures */,
 				CBEEF44A2E09C21100A33754 /* AppearsAndDisappears */,
 				CB700A2D2E048C5600E53774 /* TabView */,
 				CB8228972E0337D3008F78F3 /* Slider */,
@@ -741,6 +763,7 @@
 				CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */,
 				CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */,
 				CB8061AE2DE101870005E524 /* LazyHGridViewExample.swift in Sources */,
+				CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */,
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
 				CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */,
@@ -788,6 +811,7 @@
 				CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */,
 				CB8061AA2DE0F6FC0005E524 /* LazyVGridView.swift in Sources */,
 				CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */,
+				CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */,
 				CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */,
 				CB8061992DE0ECDC0005E524 /* VerticalAndHorizontalScrollView.swift in Sources */,
 			);
