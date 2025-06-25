@@ -55,6 +55,7 @@
 		CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F4E52DD26850006A98F8 /* Assets.xcassets */; };
 		CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4ED2DD26878006A98F8 /* TextView.swift */; };
 		CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */; };
+		CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB554052E0C692500BA76C6 /* ViewModelView.swift */; };
 		CBBE3E022DEF686E003FB0BD /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE3E012DEF686E003FB0BD /* AlertView.swift */; };
 		CBBE3E042DEF6DD5003FB0BD /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE3E032DEF6DD5003FB0BD /* CustomAlertView.swift */; };
 		CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */; };
@@ -146,6 +147,7 @@
 		CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		CBB3F4ED2DD26878006A98F8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		CBB554052E0C692500BA76C6 /* ViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelView.swift; sourceTree = "<group>"; };
 		CBBE3E012DEF686E003FB0BD /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		CBBE3E032DEF6DD5003FB0BD /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
@@ -439,6 +441,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CBB554042E0C670F00BA76C6 /* PropertyWrappers */,
 				CBA3E0432E0B246B007A8F61 /* ModelClass */,
 				CBEEF44D2E09C7AE00A33754 /* Statements */,
 				CBB3F4EC2DD2685C006A98F8 /* UIComponents */,
@@ -488,6 +491,14 @@
 				CB1C76D72DD87FCF00DBDAB0 /* TextAndShapes */,
 			);
 			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		CBB554042E0C670F00BA76C6 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				CBB554052E0C692500BA76C6 /* ViewModelView.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 		CBBE3E002DEF6860003FB0BD /* AlertViews */ = {
@@ -812,6 +823,7 @@
 				CB8061AA2DE0F6FC0005E524 /* LazyVGridView.swift in Sources */,
 				CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */,
 				CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */,
+				CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */,
 				CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */,
 				CB8061992DE0ECDC0005E524 /* VerticalAndHorizontalScrollView.swift in Sources */,
 			);
