@@ -48,6 +48,8 @@
 		CB8228962E033298008F78F3 /* StepperButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228952E033298008F78F3 /* StepperButtonView.swift */; };
 		CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228982E0337DE008F78F3 /* SliderView.swift */; };
 		CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */; };
+		CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */; };
+		CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944B012E0F1A9E0081D01F /* AppStorageView.swift */; };
 		CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */; };
 		CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0442E0B2491007A8F61 /* UserModelView.swift */; };
 		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
@@ -140,6 +142,8 @@
 		CB8228952E033298008F78F3 /* StepperButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperButtonView.swift; sourceTree = "<group>"; };
 		CB8228982E0337DE008F78F3 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionAndViews.swift; sourceTree = "<group>"; };
+		CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
+		CB944B012E0F1A9E0081D01F /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		CBA3E0442E0B2491007A8F61 /* UserModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelView.swift; sourceTree = "<group>"; };
 		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -422,6 +426,14 @@
 			path = FunctionaAndViews;
 			sourceTree = "<group>";
 		};
+		CB944B002E0F1A8E0081D01F /* AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CB944B012E0F1A9E0081D01F /* AppStorageView.swift */,
+			);
+			path = AppStorage;
+			sourceTree = "<group>";
+		};
 		CBA3E0402E0B1B05007A8F61 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +453,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CB944B002E0F1A8E0081D01F /* AppStorage */,
 				CBB554042E0C670F00BA76C6 /* PropertyWrappers */,
 				CBA3E0432E0B246B007A8F61 /* ModelClass */,
 				CBEEF44D2E09C7AE00A33754 /* Statements */,
@@ -497,6 +510,7 @@
 			isa = PBXGroup;
 			children = (
 				CBB554052E0C692500BA76C6 /* ViewModelView.swift */,
+				CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */,
 			);
 			path = PropertyWrappers;
 			sourceTree = "<group>";
@@ -778,6 +792,7 @@
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
 				CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */,
+				CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */,
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */,
 				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
@@ -799,6 +814,7 @@
 				CB7EAA532DEE11AF003FE096 /* ListView.swift in Sources */,
 				CBEABB622DF0BBD400636F83 /* DynamicActionSheetView.swift in Sources */,
 				CB0F40D62E01E26C00173F9B /* PickerSegmentExample.swift in Sources */,
+				CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,

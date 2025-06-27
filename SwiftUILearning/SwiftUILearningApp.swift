@@ -13,8 +13,10 @@ struct SwiftUILearningApp: App {
         WindowGroup {
 //            ContentView()
            // ShapesView()
-            VerticalScrollView()
+            //VerticalScrollView()
             //ListView()
+            
+            AppStorageView()
         }
     }
 }
