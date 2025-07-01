@@ -69,6 +69,9 @@
 		CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB853B2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift */; };
 		CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB853E2DDBB2A10007F538 /* PaddingView.swift */; };
 		CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */; };
+		CBE7500C2E14655400FFB9E6 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7500B2E14655400FFB9E6 /* IntroView.swift */; };
+		CBE7500E2E14673800FFB9E6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7500D2E14673800FFB9E6 /* OnboardingView.swift */; };
+		CBE750102E147EA400FFB9E6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7500F2E147EA400FFB9E6 /* ProfileView.swift */; };
 		CBEABB622DF0BBD400636F83 /* DynamicActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABB612DF0BBD400636F83 /* DynamicActionSheetView.swift */; };
 		CBEABB652DF0C5AD00636F83 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEABB642DF0C5AD00636F83 /* ContextMenuView.swift */; };
 		CBEED5472DE234A300BF1F05 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5462DE234A300BF1F05 /* SafeAreaView.swift */; };
@@ -163,6 +166,9 @@
 		CBDB853B2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_VStack_HStack_View.swift; sourceTree = "<group>"; };
 		CBDB853E2DDBB2A10007F538 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingWithVStack.swift; sourceTree = "<group>"; };
+		CBE7500B2E14655400FFB9E6 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		CBE7500D2E14673800FFB9E6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CBE7500F2E147EA400FFB9E6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CBEABB612DF0BBD400636F83 /* DynamicActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicActionSheetView.swift; sourceTree = "<group>"; };
 		CBEABB642DF0C5AD00636F83 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		CBEED5462DE234A300BF1F05 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
@@ -453,6 +459,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CBE7500A2E14653800FFB9E6 /* OnboradingViews */,
 				CB944B002E0F1A8E0081D01F /* AppStorage */,
 				CBB554042E0C670F00BA76C6 /* PropertyWrappers */,
 				CBA3E0432E0B246B007A8F61 /* ModelClass */,
@@ -553,6 +560,16 @@
 				CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */,
 			);
 			path = PaddingAndSpacer;
+			sourceTree = "<group>";
+		};
+		CBE7500A2E14653800FFB9E6 /* OnboradingViews */ = {
+			isa = PBXGroup;
+			children = (
+				CBE7500B2E14655400FFB9E6 /* IntroView.swift */,
+				CBE7500D2E14673800FFB9E6 /* OnboardingView.swift */,
+				CBE7500F2E147EA400FFB9E6 /* ProfileView.swift */,
+			);
+			path = OnboradingViews;
 			sourceTree = "<group>";
 		};
 		CBEABB632DF0C59600636F83 /* ContextMenu */ = {
@@ -793,6 +810,7 @@
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
 				CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */,
 				CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */,
+				CBE7500E2E14673800FFB9E6 /* OnboardingView.swift in Sources */,
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */,
 				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
@@ -802,6 +820,7 @@
 				CB2F31C02DE62DB700A96DC6 /* LoadingView.swift in Sources */,
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
 				CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */,
+				CBE7500C2E14655400FFB9E6 /* IntroView.swift in Sources */,
 				CB6D2E5E2DE8DC62008B6F3D /* PopoverView.swift in Sources */,
 				CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */,
 				CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */,
@@ -830,6 +849,7 @@
 				CBBE3E022DEF686E003FB0BD /* AlertView.swift in Sources */,
 				CB6372C32DFB46A900356C44 /* TextFieldView.swift in Sources */,
 				CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */,
+				CBE750102E147EA400FFB9E6 /* ProfileView.swift in Sources */,
 				CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */,
 				CB8228962E033298008F78F3 /* StepperButtonView.swift in Sources */,
 				CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */,

@@ -16,7 +16,8 @@ struct SwiftUILearningApp: App {
             //VerticalScrollView()
             //ListView()
             
-            AppStorageView()
+            //AppStorageView()
+            IntroView()
         }
     }
 }
