@@ -33,6 +33,12 @@
 		CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */; };
 		CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */; };
 		CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */; };
+		CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */; };
+		CB5DB4EE2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */; };
+		CB5DB4F12E1502AD00A3D1B6 /* TextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */; };
+		CB5DB4F42E1504AE00A3D1B6 /* ButtonStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4F32E1504AE00A3D1B6 /* ButtonStylesView.swift */; };
+		CB5DB4F72E15089100A3D1B6 /* ListSwapActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4F62E15089100A3D1B6 /* ListSwapActionView.swift */; };
+		CB5DB4FA2E150B9A00A3D1B6 /* BadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4F92E150B9A00A3D1B6 /* BadgesView.swift */; };
 		CB6372C32DFB46A900356C44 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C22DFB46A900356C44 /* TextFieldView.swift */; };
 		CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C42DFB4F8300356C44 /* TextEditerView.swift */; };
 		CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */; };
@@ -130,6 +136,12 @@
 		CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Radical_Angular_Gradients.swift; sourceTree = "<group>"; };
 		CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 		CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsView.swift; sourceTree = "<group>"; };
+		CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionView.swift; sourceTree = "<group>"; };
+		CB5DB4F32E1504AE00A3D1B6 /* ButtonStylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesView.swift; sourceTree = "<group>"; };
+		CB5DB4F62E15089100A3D1B6 /* ListSwapActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwapActionView.swift; sourceTree = "<group>"; };
+		CB5DB4F92E150B9A00A3D1B6 /* BadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesView.swift; sourceTree = "<group>"; };
 		CB6372C22DFB46A900356C44 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		CB6372C42DFB4F8300356C44 /* TextEditerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditerView.swift; sourceTree = "<group>"; };
 		CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
@@ -355,6 +367,46 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		CB5DB4E92E14FA2700A3D1B6 /* AsyncImages */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */,
+			);
+			path = AsyncImages;
+			sourceTree = "<group>";
+		};
+		CB5DB4EC2E15008E00A3D1B6 /* BackgroundMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */,
+			);
+			path = BackgroundMaterial;
+			sourceTree = "<group>";
+		};
+		CB5DB4EF2E1502A000A3D1B6 /* TextSelections */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */,
+			);
+			path = TextSelections;
+			sourceTree = "<group>";
+		};
+		CB5DB4F22E15049800A3D1B6 /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DB4F32E1504AE00A3D1B6 /* ButtonStylesView.swift */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
+		CB5DB4F82E150B8E00A3D1B6 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DB4F92E150B9A00A3D1B6 /* BadgesView.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		CB6372C12DFB469A00356C44 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7EAA522DEE11AF003FE096 /* ListView.swift */,
+				CB5DB4F62E15089100A3D1B6 /* ListSwapActionView.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -459,6 +512,9 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CB5DB4EF2E1502A000A3D1B6 /* TextSelections */,
+				CB5DB4EC2E15008E00A3D1B6 /* BackgroundMaterial */,
+				CB5DB4E92E14FA2700A3D1B6 /* AsyncImages */,
 				CBE7500A2E14653800FFB9E6 /* OnboradingViews */,
 				CB944B002E0F1A8E0081D01F /* AppStorage */,
 				CBB554042E0C670F00BA76C6 /* PropertyWrappers */,
@@ -475,6 +531,8 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB5DB4F82E150B8E00A3D1B6 /* Badges */,
+				CB5DB4F22E15049800A3D1B6 /* ButtonStyles */,
 				CBA3E0402E0B1B05007A8F61 /* Gestures */,
 				CBEEF44A2E09C21100A33754 /* AppearsAndDisappears */,
 				CB700A2D2E048C5600E53774 /* TabView */,
@@ -790,6 +848,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */,
+				CB5DB4F42E1504AE00A3D1B6 /* ButtonStylesView.swift in Sources */,
 				CB0F40D82E01E73500173F9B /* ColorPickerView.swift in Sources */,
 				CB2F31C62DE6360000A96DC6 /* AnimationView.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
@@ -801,11 +860,13 @@
 				CB0F40D42E01DDD300173F9B /* PickerMenuExample.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB700A312E04928000E53774 /* PageTabBarView.swift in Sources */,
+				CB5DB4F12E1502AD00A3D1B6 /* TextSelectionView.swift in Sources */,
 				CB1C76EB2DD90FD700DBDAB0 /* BackgroundView.swift in Sources */,
 				CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */,
 				CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */,
 				CB8061AE2DE101870005E524 /* LazyHGridViewExample.swift in Sources */,
 				CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */,
+				CB5DB4F72E15089100A3D1B6 /* ListSwapActionView.swift in Sources */,
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
 				CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */,
@@ -824,8 +885,10 @@
 				CB6D2E5E2DE8DC62008B6F3D /* PopoverView.swift in Sources */,
 				CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */,
 				CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */,
+				CB5DB4FA2E150B9A00A3D1B6 /* BadgesView.swift in Sources */,
 				CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */,
 				CBEED5472DE234A300BF1F05 /* SafeAreaView.swift in Sources */,
+				CB5DB4EE2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift in Sources */,
 				CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */,
 				CB09DB632DDCFAE000BE30F7 /* SpacerWithImages.swift in Sources */,
 				CB1C76E82DD896DA00DBDAB0 /* FrameView.swift in Sources */,
@@ -856,6 +919,7 @@
 				CBEABB652DF0C5AD00636F83 /* ContextMenuView.swift in Sources */,
 				CB2F31C32DE6311700A96DC6 /* TernaryOperator.swift in Sources */,
 				CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */,
+				CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */,
 				CB8061AA2DE0F6FC0005E524 /* LazyVGridView.swift in Sources */,
 				CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */,
 				CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */,
