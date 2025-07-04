@@ -31,6 +31,8 @@
 		CB2F31C62DE6360000A96DC6 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F31C52DE6360000A96DC6 /* AnimationView.swift */; };
 		CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */; };
 		CB3071E12DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */; };
+		CB31489B2E18514400F31EF9 /* ToolBarVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB31489A2E18514400F31EF9 /* ToolBarVIew.swift */; };
+		CB31489D2E18597A00F31EF9 /* ResizableSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */; };
 		CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */; };
 		CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */; };
 		CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */; };
@@ -137,6 +139,8 @@
 		CB2F31C52DE6360000A96DC6 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		CB3071DE2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors_ColorsLiterals_HexColors.swift; sourceTree = "<group>"; };
 		CB3071E02DD3BE0A00ADDFC7 /* Linear_Radical_Angular_Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Radical_Angular_Gradients.swift; sourceTree = "<group>"; };
+		CB31489A2E18514400F31EF9 /* ToolBarVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarVIew.swift; sourceTree = "<group>"; };
+		CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetView.swift; sourceTree = "<group>"; };
 		CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 		CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
@@ -374,6 +378,14 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		CB3148972E18512400F31EF9 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				CB31489A2E18514400F31EF9 /* ToolBarVIew.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
 		CB5DB4E92E14FA2700A3D1B6 /* AsyncImages */ = {
 			isa = PBXGroup;
 			children = (
@@ -520,6 +532,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CB3148972E18512400F31EF9 /* ToolBar */,
 				CB5DB4EF2E1502A000A3D1B6 /* TextSelections */,
 				CB5DB4EC2E15008E00A3D1B6 /* BackgroundMaterial */,
 				CB5DB4E92E14FA2700A3D1B6 /* AsyncImages */,
@@ -603,6 +616,7 @@
 			children = (
 				CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */,
 				CBEABB612DF0BBD400636F83 /* DynamicActionSheetView.swift */,
+				CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */,
 			);
 			path = ActionSheet;
 			sourceTree = "<group>";
@@ -917,6 +931,7 @@
 				CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
 				CB5DB50A2E15B45700A3D1B6 /* SubmitTextFieldView.swift in Sources */,
+				CB31489B2E18514400F31EF9 /* ToolBarVIew.swift in Sources */,
 				CB8228932E032BA8008F78F3 /* DatePickerView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
 				CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */,
@@ -927,6 +942,7 @@
 				CBE750102E147EA400FFB9E6 /* ProfileView.swift in Sources */,
 				CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */,
 				CB8228962E033298008F78F3 /* StepperButtonView.swift in Sources */,
+				CB31489D2E18597A00F31EF9 /* ResizableSheetView.swift in Sources */,
 				CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */,
 				CBEABB652DF0C5AD00636F83 /* ContextMenuView.swift in Sources */,
 				CB2F31C32DE6311700A96DC6 /* TernaryOperator.swift in Sources */,
