@@ -48,6 +48,13 @@
 		CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C42DFB4F8300356C44 /* TextEditerView.swift */; };
 		CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */; };
 		CB6D2E5E2DE8DC62008B6F3D /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D2E5D2DE8DC62008B6F3D /* PopoverView.swift */; };
+		CB6F0D2F2E19433E00EDBA18 /* UpdatedAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D2E2E19433E00EDBA18 /* UpdatedAnimationView.swift */; };
+		CB6F0D322E19454900EDBA18 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D312E19454900EDBA18 /* MenuView.swift */; };
+		CB6F0D342E1957DB00EDBA18 /* NativePopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D332E1957DB00EDBA18 /* NativePopoverView.swift */; };
+		CB6F0D372E195E4A00EDBA18 /* AnyLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D362E195E4A00EDBA18 /* AnyLayoutView.swift */; };
+		CB6F0D3A2E199F9300EDBA18 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D392E199F9300EDBA18 /* GridView.swift */; };
+		CB6F0D3D2E19A61200EDBA18 /* UnavailableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D3C2E19A61200EDBA18 /* UnavailableContentView.swift */; };
+		CB6F0D402E19A80300EDBA18 /* ControlGroupMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0D3F2E19A80300EDBA18 /* ControlGroupMenuView.swift */; };
 		CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB700A2E2E048C6C00E53774 /* BottomTabView.swift */; };
 		CB700A312E04928000E53774 /* PageTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB700A302E04928000E53774 /* PageTabBarView.swift */; };
 		CB7EAA532DEE11AF003FE096 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7EAA522DEE11AF003FE096 /* ListView.swift */; };
@@ -156,6 +163,13 @@
 		CB6372C42DFB4F8300356C44 /* TextEditerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditerView.swift; sourceTree = "<group>"; };
 		CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
 		CB6D2E5D2DE8DC62008B6F3D /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		CB6F0D2E2E19433E00EDBA18 /* UpdatedAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedAnimationView.swift; sourceTree = "<group>"; };
+		CB6F0D312E19454900EDBA18 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CB6F0D332E1957DB00EDBA18 /* NativePopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverView.swift; sourceTree = "<group>"; };
+		CB6F0D362E195E4A00EDBA18 /* AnyLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutView.swift; sourceTree = "<group>"; };
+		CB6F0D392E199F9300EDBA18 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		CB6F0D3C2E19A61200EDBA18 /* UnavailableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableContentView.swift; sourceTree = "<group>"; };
+		CB6F0D3F2E19A80300EDBA18 /* ControlGroupMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupMenuView.swift; sourceTree = "<group>"; };
 		CB700A2E2E048C6C00E53774 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
 		CB700A302E04928000E53774 /* PageTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabBarView.swift; sourceTree = "<group>"; };
 		CB7EAA522DEE11AF003FE096 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -365,6 +379,7 @@
 				CB2F31C52DE6360000A96DC6 /* AnimationView.swift */,
 				CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */,
 				CBC79CEF2DE787F700203C80 /* TransitionView.swift */,
+				CB6F0D2E2E19433E00EDBA18 /* UpdatedAnimationView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -448,8 +463,49 @@
 			isa = PBXGroup;
 			children = (
 				CB6D2E5D2DE8DC62008B6F3D /* PopoverView.swift */,
+				CB6F0D332E1957DB00EDBA18 /* NativePopoverView.swift */,
 			);
 			path = PopOverView;
+			sourceTree = "<group>";
+		};
+		CB6F0D302E19454100EDBA18 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F0D312E19454900EDBA18 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CB6F0D352E195E3600EDBA18 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F0D362E195E4A00EDBA18 /* AnyLayoutView.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		CB6F0D382E199F8700EDBA18 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F0D392E199F9300EDBA18 /* GridView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		CB6F0D3B2E19A5FF00EDBA18 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F0D3C2E19A61200EDBA18 /* UnavailableContentView.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		CB6F0D3E2E19A7F000EDBA18 /* ControlGroupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F0D3F2E19A80300EDBA18 /* ControlGroupMenuView.swift */,
+			);
+			path = ControlGroupMenu;
 			sourceTree = "<group>";
 		};
 		CB700A2D2E048C5600E53774 /* TabView */ = {
@@ -532,6 +588,11 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CB6F0D3E2E19A7F000EDBA18 /* ControlGroupMenu */,
+				CB6F0D3B2E19A5FF00EDBA18 /* ErrorView */,
+				CB6F0D382E199F8700EDBA18 /* Grid */,
+				CB6F0D352E195E3600EDBA18 /* Layout */,
+				CB6F0D302E19454100EDBA18 /* Menu */,
 				CB3148972E18512400F31EF9 /* ToolBar */,
 				CB5DB4EF2E1502A000A3D1B6 /* TextSelections */,
 				CB5DB4EC2E15008E00A3D1B6 /* BackgroundMaterial */,
@@ -874,6 +935,7 @@
 				CB5DB4F42E1504AE00A3D1B6 /* ButtonStylesView.swift in Sources */,
 				CB0F40D82E01E73500173F9B /* ColorPickerView.swift in Sources */,
 				CB2F31C62DE6360000A96DC6 /* AnimationView.swift in Sources */,
+				CB6F0D2F2E19433E00EDBA18 /* UpdatedAnimationView.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
 				CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */,
 				CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */,
@@ -907,6 +969,7 @@
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
 				CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */,
 				CBE7500C2E14655400FFB9E6 /* IntroView.swift in Sources */,
+				CB6F0D402E19A80300EDBA18 /* ControlGroupMenuView.swift in Sources */,
 				CB6D2E5E2DE8DC62008B6F3D /* PopoverView.swift in Sources */,
 				CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */,
 				CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */,
@@ -924,6 +987,7 @@
 				CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
+				CB6F0D372E195E4A00EDBA18 /* AnyLayoutView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,
 				CB0F40D22E01D98F00173F9B /* PickerView.swift in Sources */,
 				CBEEF4502E09C98500A33754 /* IfLetGuardLetStatement.swift in Sources */,
@@ -933,8 +997,10 @@
 				CB5DB50A2E15B45700A3D1B6 /* SubmitTextFieldView.swift in Sources */,
 				CB31489B2E18514400F31EF9 /* ToolBarVIew.swift in Sources */,
 				CB8228932E032BA8008F78F3 /* DatePickerView.swift in Sources */,
+				CB6F0D3D2E19A61200EDBA18 /* UnavailableContentView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
 				CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */,
+				CB6F0D342E1957DB00EDBA18 /* NativePopoverView.swift in Sources */,
 				CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */,
 				CBBE3E022DEF686E003FB0BD /* AlertView.swift in Sources */,
 				CB6372C32DFB46A900356C44 /* TextFieldView.swift in Sources */,
@@ -950,6 +1016,8 @@
 				CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */,
 				CB8061AA2DE0F6FC0005E524 /* LazyVGridView.swift in Sources */,
 				CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */,
+				CB6F0D322E19454900EDBA18 /* MenuView.swift in Sources */,
+				CB6F0D3A2E199F9300EDBA18 /* GridView.swift in Sources */,
 				CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */,
 				CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */,
 				CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */,
