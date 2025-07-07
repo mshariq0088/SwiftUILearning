@@ -87,6 +87,7 @@
 		CBDB853C2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB853B2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift */; };
 		CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB853E2DDBB2A10007F538 /* PaddingView.swift */; };
 		CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */; };
+		CBE3A9202E1C372000FDE923 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3A91F2E1C372000FDE923 /* DownloadImageAsync.swift */; };
 		CBE7500C2E14655400FFB9E6 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7500B2E14655400FFB9E6 /* IntroView.swift */; };
 		CBE7500E2E14673800FFB9E6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7500D2E14673800FFB9E6 /* OnboardingView.swift */; };
 		CBE750102E147EA400FFB9E6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7500F2E147EA400FFB9E6 /* ProfileView.swift */; };
@@ -202,6 +203,7 @@
 		CBDB853B2DDBA7A70007F538 /* ZStack_VStack_HStack_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_VStack_HStack_View.swift; sourceTree = "<group>"; };
 		CBDB853E2DDBB2A10007F538 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		CBDB85402DDBB4580007F538 /* PaddingWithVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingWithVStack.swift; sourceTree = "<group>"; };
+		CBE3A91F2E1C372000FDE923 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		CBE7500B2E14655400FFB9E6 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		CBE7500D2E14673800FFB9E6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CBE7500F2E147EA400FFB9E6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -588,6 +590,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CBE3A91E2E1C364600FDE923 /* SwiftConcurrency */,
 				CB6F0D3E2E19A7F000EDBA18 /* ControlGroupMenu */,
 				CB6F0D3B2E19A5FF00EDBA18 /* ErrorView */,
 				CB6F0D382E199F8700EDBA18 /* Grid */,
@@ -702,6 +705,14 @@
 				CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */,
 			);
 			path = PaddingAndSpacer;
+			sourceTree = "<group>";
+		};
+		CBE3A91E2E1C364600FDE923 /* SwiftConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				CBE3A91F2E1C372000FDE923 /* DownloadImageAsync.swift */,
+			);
+			path = SwiftConcurrency;
 			sourceTree = "<group>";
 		};
 		CBE7500A2E14653800FFB9E6 /* OnboradingViews */ = {
@@ -983,6 +994,7 @@
 				CBBE3E042DEF6DD5003FB0BD /* CustomAlertView.swift in Sources */,
 				CB7EAA532DEE11AF003FE096 /* ListView.swift in Sources */,
 				CBEABB622DF0BBD400636F83 /* DynamicActionSheetView.swift in Sources */,
+				CBE3A9202E1C372000FDE923 /* DownloadImageAsync.swift in Sources */,
 				CB0F40D62E01E26C00173F9B /* PickerSegmentExample.swift in Sources */,
 				CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
