@@ -44,6 +44,8 @@
 		CB5DB5082E15862F00A3D1B6 /* FocusStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB5072E15862F00A3D1B6 /* FocusStateView.swift */; };
 		CB5DB50A2E15B45700A3D1B6 /* SubmitTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB5092E15B45700A3D1B6 /* SubmitTextFieldView.swift */; };
 		CB5DB50C2E15B80D00A3D1B6 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB50B2E15B80D00A3D1B6 /* NavigationStackView.swift */; };
+		CB5DCD852E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */; };
+		CB5DCD872E1D966F00E71F39 /* TaskBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */; };
 		CB6372C32DFB46A900356C44 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C22DFB46A900356C44 /* TextFieldView.swift */; };
 		CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C42DFB4F8300356C44 /* TextEditerView.swift */; };
 		CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */; };
@@ -160,6 +162,8 @@
 		CB5DB5072E15862F00A3D1B6 /* FocusStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateView.swift; sourceTree = "<group>"; };
 		CB5DB5092E15B45700A3D1B6 /* SubmitTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTextFieldView.swift; sourceTree = "<group>"; };
 		CB5DB50B2E15B80D00A3D1B6 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootCamp.swift; sourceTree = "<group>"; };
+		CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootCamp.swift; sourceTree = "<group>"; };
 		CB6372C22DFB46A900356C44 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		CB6372C42DFB4F8300356C44 /* TextEditerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditerView.swift; sourceTree = "<group>"; };
 		CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
@@ -711,6 +715,8 @@
 			isa = PBXGroup;
 			children = (
 				CBE3A91F2E1C372000FDE923 /* DownloadImageAsync.swift */,
+				CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */,
+				CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -999,6 +1005,7 @@
 				CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */,
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
+				CB5DCD872E1D966F00E71F39 /* TaskBootCamp.swift in Sources */,
 				CB6F0D372E195E4A00EDBA18 /* AnyLayoutView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,
 				CB0F40D22E01D98F00173F9B /* PickerView.swift in Sources */,
@@ -1030,6 +1037,7 @@
 				CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */,
 				CB6F0D322E19454900EDBA18 /* MenuView.swift in Sources */,
 				CB6F0D3A2E199F9300EDBA18 /* GridView.swift in Sources */,
+				CB5DCD852E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift in Sources */,
 				CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */,
 				CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */,
 				CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */,
