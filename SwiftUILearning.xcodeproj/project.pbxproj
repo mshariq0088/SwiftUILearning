@@ -14,6 +14,7 @@
 		CB0F40D42E01DDD300173F9B /* PickerMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D32E01DDD300173F9B /* PickerMenuExample.swift */; };
 		CB0F40D62E01E26C00173F9B /* PickerSegmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D52E01E26C00173F9B /* PickerSegmentExample.swift */; };
 		CB0F40D82E01E73500173F9B /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40D72E01E73500173F9B /* ColorPickerView.swift */; };
+		CB1A84BF2E1EEABB00621681 /* AsyncLetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1A84BE2E1EEABB00621681 /* AsyncLetBootCamp.swift */; };
 		CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */; };
 		CB1C76D92DD8801C00DBDAB0 /* AssetsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */; };
 		CB1C76E82DD896DA00DBDAB0 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76E72DD896DA00DBDAB0 /* FrameView.swift */; };
@@ -132,6 +133,7 @@
 		CB0F40D32E01DDD300173F9B /* PickerMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerMenuExample.swift; sourceTree = "<group>"; };
 		CB0F40D52E01E26C00173F9B /* PickerSegmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSegmentExample.swift; sourceTree = "<group>"; };
 		CB0F40D72E01E73500173F9B /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		CB1A84BE2E1EEABB00621681 /* AsyncLetBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootCamp.swift; sourceTree = "<group>"; };
 		CB1C76D52DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcon_MultiColorIcon_SFSymbol.swift; sourceTree = "<group>"; };
 		CB1C76D82DD8801C00DBDAB0 /* AssetsImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImages.swift; sourceTree = "<group>"; };
 		CB1C76E72DD896DA00DBDAB0 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
@@ -717,6 +719,7 @@
 				CBE3A91F2E1C372000FDE923 /* DownloadImageAsync.swift */,
 				CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */,
 				CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */,
+				CB1A84BE2E1EEABB00621681 /* AsyncLetBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1014,6 +1017,7 @@
 				CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
 				CB5DB50A2E15B45700A3D1B6 /* SubmitTextFieldView.swift in Sources */,
+				CB1A84BF2E1EEABB00621681 /* AsyncLetBootCamp.swift in Sources */,
 				CB31489B2E18514400F31EF9 /* ToolBarVIew.swift in Sources */,
 				CB8228932E032BA8008F78F3 /* DatePickerView.swift in Sources */,
 				CB6F0D3D2E19A61200EDBA18 /* UnavailableContentView.swift in Sources */,
