@@ -79,6 +79,7 @@
 		CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4ED2DD26878006A98F8 /* TextView.swift */; };
 		CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */; };
 		CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB554052E0C692500BA76C6 /* ViewModelView.swift */; };
+		CBB6C8D32E202A2800F9A68F /* TaskGroupBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */; };
 		CBBE3E022DEF686E003FB0BD /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE3E012DEF686E003FB0BD /* AlertView.swift */; };
 		CBBE3E042DEF6DD5003FB0BD /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE3E032DEF6DD5003FB0BD /* CustomAlertView.swift */; };
 		CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */; };
@@ -198,6 +199,7 @@
 		CBB3F4ED2DD26878006A98F8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		CBB554052E0C692500BA76C6 /* ViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelView.swift; sourceTree = "<group>"; };
+		CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootCamp.swift; sourceTree = "<group>"; };
 		CBBE3E012DEF686E003FB0BD /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		CBBE3E032DEF6DD5003FB0BD /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
@@ -720,6 +722,7 @@
 				CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */,
 				CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */,
 				CB1A84BE2E1EEABB00621681 /* AsyncLetBootCamp.swift */,
+				CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -958,6 +961,7 @@
 				CB6F0D2F2E19433E00EDBA18 /* UpdatedAnimationView.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
 				CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */,
+				CBB6C8D32E202A2800F9A68F /* TaskGroupBootCamp.swift in Sources */,
 				CBEED54C2DE23F1F00BF1F05 /* ButtonView.swift in Sources */,
 				CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */,
 				CB1E535C2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift in Sources */,
