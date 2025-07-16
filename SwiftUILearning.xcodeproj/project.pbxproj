@@ -24,6 +24,7 @@
 		CB1C76F12DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */; };
 		CB1E535C2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E535B2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift */; };
 		CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */; };
+		CB2E4EE72E2819E600C46E3C /* ActorBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E4EE62E2819E600C46E3C /* ActorBootCamp.swift */; };
 		CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */; };
 		CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E553E2DE4E63700687E19 /* BindingProperties.swift */; };
 		CB2F31BE2DE628CD00A96DC6 /* ConditionalStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F31BD2DE628CD00A96DC6 /* ConditionalStatement.swift */; };
@@ -145,6 +146,7 @@
 		CB1C76F02DD91C9A00DBDAB0 /* OverlayUseInNotificationBedgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayUseInNotificationBedgeView.swift; sourceTree = "<group>"; };
 		CB1E535B2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAndNavigationLink.swift; sourceTree = "<group>"; };
 		CB1FDB452DDE4D45007C4347 /* InitializerAndEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerAndEnumView.swift; sourceTree = "<group>"; };
+		CB2E4EE62E2819E600C46E3C /* ActorBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorBootCamp.swift; sourceTree = "<group>"; };
 		CB2E553B2DE4DD6500687E19 /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
 		CB2E553E2DE4E63700687E19 /* BindingProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperties.swift; sourceTree = "<group>"; };
 		CB2F31BD2DE628CD00A96DC6 /* ConditionalStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalStatement.swift; sourceTree = "<group>"; };
@@ -726,6 +728,7 @@
 				CB1A84BE2E1EEABB00621681 /* AsyncLetBootCamp.swift */,
 				CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */,
 				CBB1ADFB2E22D83200ACC834 /* ContinuationsBootCamp.swift */,
+				CB2E4EE62E2819E600C46E3C /* ActorBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1017,6 +1020,7 @@
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
 				CB5DCD872E1D966F00E71F39 /* TaskBootCamp.swift in Sources */,
+				CB2E4EE72E2819E600C46E3C /* ActorBootCamp.swift in Sources */,
 				CB6F0D372E195E4A00EDBA18 /* AnyLayoutView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,
 				CB0F40D22E01D98F00173F9B /* PickerView.swift in Sources */,
