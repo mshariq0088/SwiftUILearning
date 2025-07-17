@@ -105,6 +105,7 @@
 		CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */; };
 		CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF44B2E09C23500A33754 /* OnAppearsView.swift */; };
 		CBEEF4502E09C98500A33754 /* IfLetGuardLetStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */; };
+		CBF362672E296751006C5C3C /* GlobalActorBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */; };
 		CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */; };
 /* End PBXBuildFile section */
 
@@ -227,6 +228,7 @@
 		CBEED54E2DE24B0D00BF1F05 /* StateVariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVariableView.swift; sourceTree = "<group>"; };
 		CBEEF44B2E09C23500A33754 /* OnAppearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearsView.swift; sourceTree = "<group>"; };
 		CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardLetStatement.swift; sourceTree = "<group>"; };
+		CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorBootCamp.swift; sourceTree = "<group>"; };
 		CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -729,6 +731,7 @@
 				CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */,
 				CBB1ADFB2E22D83200ACC834 /* ContinuationsBootCamp.swift */,
 				CB2E4EE62E2819E600C46E3C /* ActorBootCamp.swift */,
+				CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1058,6 +1061,7 @@
 				CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */,
 				CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */,
 				CB8061992DE0ECDC0005E524 /* VerticalAndHorizontalScrollView.swift in Sources */,
+				CBF362672E296751006C5C3C /* GlobalActorBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
