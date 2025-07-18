@@ -82,6 +82,7 @@
 		CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */; };
 		CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB554052E0C692500BA76C6 /* ViewModelView.swift */; };
 		CBB6C8D32E202A2800F9A68F /* TaskGroupBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */; };
+		CBBC6CE82E2AC4DF008CC28B /* SandableProtocolBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC6CE72E2AC4DE008CC28B /* SandableProtocolBootCamp.swift */; };
 		CBBE3E022DEF686E003FB0BD /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE3E012DEF686E003FB0BD /* AlertView.swift */; };
 		CBBE3E042DEF6DD5003FB0BD /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE3E032DEF6DD5003FB0BD /* CustomAlertView.swift */; };
 		CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */; };
@@ -205,6 +206,7 @@
 		CBB3F4EF2DD27255006A98F8 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		CBB554052E0C692500BA76C6 /* ViewModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelView.swift; sourceTree = "<group>"; };
 		CBB6C8D22E202A2800F9A68F /* TaskGroupBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootCamp.swift; sourceTree = "<group>"; };
+		CBBC6CE72E2AC4DE008CC28B /* SandableProtocolBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandableProtocolBootCamp.swift; sourceTree = "<group>"; };
 		CBBE3E012DEF686E003FB0BD /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		CBBE3E032DEF6DD5003FB0BD /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
@@ -732,6 +734,7 @@
 				CBB1ADFB2E22D83200ACC834 /* ContinuationsBootCamp.swift */,
 				CB2E4EE62E2819E600C46E3C /* ActorBootCamp.swift */,
 				CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */,
+				CBBC6CE72E2AC4DE008CC28B /* SandableProtocolBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1001,6 +1004,7 @@
 				CB2F31C02DE62DB700A96DC6 /* LoadingView.swift in Sources */,
 				CB1C76EF2DD91C2200DBDAB0 /* OverlayInRectangleView.swift in Sources */,
 				CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */,
+				CBBC6CE82E2AC4DF008CC28B /* SandableProtocolBootCamp.swift in Sources */,
 				CBE7500C2E14655400FFB9E6 /* IntroView.swift in Sources */,
 				CB6F0D402E19A80300EDBA18 /* ControlGroupMenuView.swift in Sources */,
 				CB6D2E5E2DE8DC62008B6F3D /* PopoverView.swift in Sources */,
