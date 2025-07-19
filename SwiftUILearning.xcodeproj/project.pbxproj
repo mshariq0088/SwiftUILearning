@@ -37,6 +37,7 @@
 		CB31489D2E18597A00F31EF9 /* ResizableSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */; };
 		CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */; };
 		CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */; };
+		CB406DA82E2B91560012F35D /* AsyncPublisherBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */; };
 		CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */; };
 		CB5DB4EE2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */; };
 		CB5DB4F12E1502AD00A3D1B6 /* TextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */; };
@@ -161,6 +162,7 @@
 		CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetView.swift; sourceTree = "<group>"; };
 		CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 		CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootCamp.swift; sourceTree = "<group>"; };
 		CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsView.swift; sourceTree = "<group>"; };
 		CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionView.swift; sourceTree = "<group>"; };
@@ -735,6 +737,7 @@
 				CB2E4EE62E2819E600C46E3C /* ActorBootCamp.swift */,
 				CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */,
 				CBBC6CE72E2AC4DE008CC28B /* SandableProtocolBootCamp.swift */,
+				CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1039,6 +1042,7 @@
 				CB1A84BF2E1EEABB00621681 /* AsyncLetBootCamp.swift in Sources */,
 				CB31489B2E18514400F31EF9 /* ToolBarVIew.swift in Sources */,
 				CB8228932E032BA8008F78F3 /* DatePickerView.swift in Sources */,
+				CB406DA82E2B91560012F35D /* AsyncPublisherBootCamp.swift in Sources */,
 				CB6F0D3D2E19A61200EDBA18 /* UnavailableContentView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
 				CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */,
