@@ -38,6 +38,8 @@
 		CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */; };
 		CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */; };
 		CB406DA82E2B91560012F35D /* AsyncPublisherBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */; };
+		CB406DB62E2C0FFB0012F35D /* StrongSelfBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */; };
+		CB406DB82E2C18CA0012F35D /* MVVMBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */; };
 		CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */; };
 		CB5DB4EE2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */; };
 		CB5DB4F12E1502AD00A3D1B6 /* TextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */; };
@@ -163,6 +165,8 @@
 		CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 		CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootCamp.swift; sourceTree = "<group>"; };
+		CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfBootCamp.swift; sourceTree = "<group>"; };
+		CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootCamp.swift; sourceTree = "<group>"; };
 		CB5DB4EA2E14FA3700A3D1B6 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		CB5DB4ED2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsView.swift; sourceTree = "<group>"; };
 		CB5DB4F02E1502AD00A3D1B6 /* TextSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionView.swift; sourceTree = "<group>"; };
@@ -738,6 +742,8 @@
 				CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */,
 				CBBC6CE72E2AC4DE008CC28B /* SandableProtocolBootCamp.swift */,
 				CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */,
+				CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */,
+				CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -990,6 +996,7 @@
 				CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */,
 				CB8061AE2DE101870005E524 /* LazyHGridViewExample.swift in Sources */,
 				CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */,
+				CB406DB62E2C0FFB0012F35D /* StrongSelfBootCamp.swift in Sources */,
 				CB5DB4F72E15089100A3D1B6 /* ListSwapActionView.swift in Sources */,
 				CB1C76D62DD87C6C00DBDAB0 /* SystemIcon_MultiColorIcon_SFSymbol.swift in Sources */,
 				CB8061AC2DE0FB210005E524 /* LazyVGridViewExample.swift in Sources */,
@@ -999,6 +1006,7 @@
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */,
 				CB5DB5082E15862F00A3D1B6 /* FocusStateView.swift in Sources */,
+				CB406DB82E2C18CA0012F35D /* MVVMBootCamp.swift in Sources */,
 				CB5DB50C2E15B80D00A3D1B6 /* NavigationStackView.swift in Sources */,
 				CB2E553C2DE4DD6600687E19 /* ExtractSubView.swift in Sources */,
 				CBDB85412DDBB4580007F538 /* PaddingWithVStack.swift in Sources */,
