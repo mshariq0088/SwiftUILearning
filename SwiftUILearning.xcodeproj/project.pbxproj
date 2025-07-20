@@ -72,6 +72,7 @@
 		CB8228932E032BA8008F78F3 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228922E032BA8008F78F3 /* DatePickerView.swift */; };
 		CB8228962E033298008F78F3 /* StepperButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228952E033298008F78F3 /* StepperButtonView.swift */; };
 		CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228982E0337DE008F78F3 /* SliderView.swift */; };
+		CB86C94B2E2D21E000C9C87B /* RefreshableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */; };
 		CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */; };
 		CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */; };
 		CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944B012E0F1A9E0081D01F /* AppStorageView.swift */; };
@@ -199,6 +200,7 @@
 		CB8228922E032BA8008F78F3 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		CB8228952E033298008F78F3 /* StepperButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperButtonView.swift; sourceTree = "<group>"; };
 		CB8228982E0337DE008F78F3 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableBootCamp.swift; sourceTree = "<group>"; };
 		CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionAndViews.swift; sourceTree = "<group>"; };
 		CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		CB944B012E0F1A9E0081D01F /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
@@ -744,6 +746,7 @@
 				CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */,
 				CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */,
 				CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */,
+				CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1075,6 +1078,7 @@
 				CB5DCD852E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift in Sources */,
 				CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */,
 				CBB554062E0C692500BA76C6 /* ViewModelView.swift in Sources */,
+				CB86C94B2E2D21E000C9C87B /* RefreshableBootCamp.swift in Sources */,
 				CB1C76ED2DD91BB100DBDAB0 /* OverlayInCircleView.swift in Sources */,
 				CB8061992DE0ECDC0005E524 /* VerticalAndHorizontalScrollView.swift in Sources */,
 				CBF362672E296751006C5C3C /* GlobalActorBootCamp.swift in Sources */,
