@@ -92,6 +92,7 @@
 		CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */; };
 		CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */; };
 		CBC79CF02DE787F700203C80 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CEF2DE787F700203C80 /* TransitionView.swift */; };
+		CBCC3E302E2EAFB2006618A8 /* SearchableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */; };
 		CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85352DDBA1F10007F538 /* VStackView.swift */; };
 		CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85372DDBA2C10007F538 /* HStackView.swift */; };
 		CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85392DDBA3780007F538 /* ZStackView.swift */; };
@@ -220,6 +221,7 @@
 		CBBFC4902DF0B62E00961BC9 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewWithTiming.swift; sourceTree = "<group>"; };
 		CBC79CEF2DE787F700203C80 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBootCamp.swift; sourceTree = "<group>"; };
 		CBDB85352DDBA1F10007F538 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		CBDB85372DDBA2C10007F538 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		CBDB85392DDBA3780007F538 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -747,6 +749,7 @@
 				CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */,
 				CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */,
 				CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */,
+				CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1048,6 +1051,7 @@
 				CBEEF4502E09C98500A33754 /* IfLetGuardLetStatement.swift in Sources */,
 				CB2F31BE2DE628CD00A96DC6 /* ConditionalStatement.swift in Sources */,
 				CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */,
+				CBCC3E302E2EAFB2006618A8 /* SearchableBootCamp.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
 				CB5DB50A2E15B45700A3D1B6 /* SubmitTextFieldView.swift in Sources */,
 				CB1A84BF2E1EEABB00621681 /* AsyncLetBootCamp.swift in Sources */,
