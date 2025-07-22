@@ -74,6 +74,7 @@
 		CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8228982E0337DE008F78F3 /* SliderView.swift */; };
 		CB86C94B2E2D21E000C9C87B /* RefreshableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */; };
 		CB87D8982DE39104002C94D1 /* ExtractedFunctionAndViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */; };
+		CB8F390A2E30095D00FAD7BB /* PhotoPickerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8F39092E30095D00FAD7BB /* PhotoPickerBootCamp.swift */; };
 		CB944AFF2E0F0B4D0081D01F /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */; };
 		CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944B012E0F1A9E0081D01F /* AppStorageView.swift */; };
 		CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */; };
@@ -203,6 +204,7 @@
 		CB8228982E0337DE008F78F3 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableBootCamp.swift; sourceTree = "<group>"; };
 		CB87D8972DE39104002C94D1 /* ExtractedFunctionAndViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionAndViews.swift; sourceTree = "<group>"; };
+		CB8F39092E30095D00FAD7BB /* PhotoPickerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerBootCamp.swift; sourceTree = "<group>"; };
 		CB944AFE2E0F0B4D0081D01F /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		CB944B012E0F1A9E0081D01F /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
@@ -750,6 +752,7 @@
 				CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */,
 				CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */,
 				CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */,
+				CB8F39092E30095D00FAD7BB /* PhotoPickerBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -1030,6 +1033,7 @@
 				CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */,
 				CB5DB4FA2E150B9A00A3D1B6 /* BadgesView.swift in Sources */,
 				CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */,
+				CB8F390A2E30095D00FAD7BB /* PhotoPickerBootCamp.swift in Sources */,
 				CBEED5472DE234A300BF1F05 /* SafeAreaView.swift in Sources */,
 				CB5DB4EE2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift in Sources */,
 				CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */,
