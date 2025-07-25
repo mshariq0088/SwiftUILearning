@@ -79,6 +79,7 @@
 		CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944B012E0F1A9E0081D01F /* AppStorageView.swift */; };
 		CBA3E0422E0B1C2E007A8F61 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */; };
 		CBA3E0452E0B2491007A8F61 /* UserModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3E0442E0B2491007A8F61 /* UserModelView.swift */; };
+		CBA697FF2E34124700B2102F /* AsyncStreamBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA697FE2E34124700B2102F /* AsyncStreamBootCamp.swift */; };
 		CBB1ADFC2E22D83200ACC834 /* ContinuationsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1ADFB2E22D83200ACC834 /* ContinuationsBootCamp.swift */; };
 		CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E62DD26850006A98F8 /* ContentView.swift */; };
 		CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4E72DD26850006A98F8 /* SwiftUILearningApp.swift */; };
@@ -209,6 +210,7 @@
 		CB944B012E0F1A9E0081D01F /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		CBA3E0412E0B1C2E007A8F61 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		CBA3E0442E0B2491007A8F61 /* UserModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelView.swift; sourceTree = "<group>"; };
+		CBA697FE2E34124700B2102F /* AsyncStreamBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootCamp.swift; sourceTree = "<group>"; };
 		CBB1ADFB2E22D83200ACC834 /* ContinuationsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsBootCamp.swift; sourceTree = "<group>"; };
 		CBB3F4E52DD26850006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB3F4E62DD26850006A98F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -753,6 +755,7 @@
 				CB86C94A2E2D21E000C9C87B /* RefreshableBootCamp.swift */,
 				CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */,
 				CB8F39092E30095D00FAD7BB /* PhotoPickerBootCamp.swift */,
+				CBA697FE2E34124700B2102F /* AsyncStreamBootCamp.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -997,6 +1000,7 @@
 				CB1E535C2DEB74AE00257949 /* NavigationViewAndNavigationLink.swift in Sources */,
 				CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */,
 				CB0F40D42E01DDD300173F9B /* PickerMenuExample.swift in Sources */,
+				CBA697FF2E34124700B2102F /* AsyncStreamBootCamp.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB700A312E04928000E53774 /* PageTabBarView.swift in Sources */,
 				CB5DB4F12E1502AD00A3D1B6 /* TextSelectionView.swift in Sources */,
