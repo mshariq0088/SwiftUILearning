@@ -99,6 +99,8 @@
 		CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */; };
 		CBC79CF02DE787F700203C80 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CEF2DE787F700203C80 /* TransitionView.swift */; };
 		CBCC3E302E2EAFB2006618A8 /* SearchableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */; };
+		CBD28CE92E3FCED4003801C1 /* DragGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD28CE82E3FCED4003801C1 /* DragGestureBootCamp.swift */; };
+		CBD28CEB2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD28CEA2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift */; };
 		CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85352DDBA1F10007F538 /* VStackView.swift */; };
 		CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85372DDBA2C10007F538 /* HStackView.swift */; };
 		CBDB853A2DDBA3780007F538 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85392DDBA3780007F538 /* ZStackView.swift */; };
@@ -234,6 +236,8 @@
 		CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewWithTiming.swift; sourceTree = "<group>"; };
 		CBC79CEF2DE787F700203C80 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBootCamp.swift; sourceTree = "<group>"; };
+		CBD28CE82E3FCED4003801C1 /* DragGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootCamp.swift; sourceTree = "<group>"; };
+		CBD28CEA2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreenDrageGesture.swift; sourceTree = "<group>"; };
 		CBDB85352DDBA1F10007F538 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		CBDB85372DDBA2C10007F538 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		CBDB85392DDBA3780007F538 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -447,6 +451,8 @@
 				CB534AD92E3E5D3C006E81FC /* LongPressGestureBootCamp.swift */,
 				CB534ADB2E3E6B51006E81FC /* MagnificationGestureBootCamp.swift */,
 				CB534ADD2E3E721B006E81FC /* RotationGestureBootCamp.swift */,
+				CBD28CE82E3FCED4003801C1 /* DragGestureBootCamp.swift */,
+				CBD28CEA2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift */,
 			);
 			path = SwiftUIGesture;
 			sourceTree = "<group>";
@@ -1013,6 +1019,7 @@
 				CB2F31C62DE6360000A96DC6 /* AnimationView.swift in Sources */,
 				CB534ADA2E3E5D3C006E81FC /* LongPressGestureBootCamp.swift in Sources */,
 				CB6F0D2F2E19433E00EDBA18 /* UpdatedAnimationView.swift in Sources */,
+				CBD28CE92E3FCED4003801C1 /* DragGestureBootCamp.swift in Sources */,
 				CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */,
 				CB2E553F2DE4E63700687E19 /* BindingProperties.swift in Sources */,
 				CBB6C8D32E202A2800F9A68F /* TaskGroupBootCamp.swift in Sources */,
@@ -1090,6 +1097,7 @@
 				CB406DA82E2B91560012F35D /* AsyncPublisherBootCamp.swift in Sources */,
 				CB6F0D3D2E19A61200EDBA18 /* UnavailableContentView.swift in Sources */,
 				CB3071DF2DD3B0F100ADDFC7 /* UIColors_ColorsLiterals_HexColors.swift in Sources */,
+				CBD28CEB2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift in Sources */,
 				CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */,
 				CB6F0D342E1957DB00EDBA18 /* NativePopoverView.swift in Sources */,
 				CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */,
