@@ -123,6 +123,7 @@
 		CBEEF4502E09C98500A33754 /* IfLetGuardLetStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */; };
 		CBF362672E296751006C5C3C /* GlobalActorBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */; };
 		CBF750902DDF87A000DC88E1 /* ForEachLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */; };
+		CBFD7AD72E43C68300CA679E /* MultipleSheetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD7AD62E43C68300CA679E /* MultipleSheetBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +263,7 @@
 		CBEEF44F2E09C98500A33754 /* IfLetGuardLetStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardLetStatement.swift; sourceTree = "<group>"; };
 		CBF362662E296751006C5C3C /* GlobalActorBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorBootCamp.swift; sourceTree = "<group>"; };
 		CBF7508F2DDF87A000DC88E1 /* ForEachLoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopView.swift; sourceTree = "<group>"; };
+		CBFD7AD62E43C68300CA679E /* MultipleSheetBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -515,6 +517,7 @@
 			isa = PBXGroup;
 			children = (
 				CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */,
+				CBFD7AD62E43C68300CA679E /* MultipleSheetBootCamp.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -1131,6 +1134,7 @@
 				CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */,
 				CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */,
 				CB534ADE2E3E721B006E81FC /* RotationGestureBootCamp.swift in Sources */,
+				CBFD7AD72E43C68300CA679E /* MultipleSheetBootCamp.swift in Sources */,
 				CB8061AA2DE0F6FC0005E524 /* LazyVGridView.swift in Sources */,
 				CB700A2F2E048C6C00E53774 /* BottomTabView.swift in Sources */,
 				CB6F0D322E19454900EDBA18 /* MenuView.swift in Sources */,
