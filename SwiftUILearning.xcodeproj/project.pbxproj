@@ -54,6 +54,10 @@
 		CB5DB50C2E15B80D00A3D1B6 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DB50B2E15B80D00A3D1B6 /* NavigationStackView.swift */; };
 		CB5DCD852E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */; };
 		CB5DCD872E1D966F00E71F39 /* TaskBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */; };
+		CB6345FE2E4A3B15005B1582 /* MaskingViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6345FD2E4A3B15005B1582 /* MaskingViewBootCamp.swift */; };
+		CB6346022E4A70A7005B1582 /* SoundBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6346012E4A70A7005B1582 /* SoundBootCamp.swift */; };
+		CB6346042E4A766F005B1582 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB6346032E4A766F005B1582 /* badum.mp3 */; };
+		CB6346062E4A7674005B1582 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB6346052E4A7674005B1582 /* tada.mp3 */; };
 		CB6372C32DFB46A900356C44 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C22DFB46A900356C44 /* TextFieldView.swift */; };
 		CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6372C42DFB4F8300356C44 /* TextEditerView.swift */; };
 		CB6D2E5B2DE8CE55008B6F3D /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */; };
@@ -101,6 +105,7 @@
 		CBC79CEE2DE77F9D00203C80 /* AnimationViewWithTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */; };
 		CBC79CF02DE787F700203C80 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC79CEF2DE787F700203C80 /* TransitionView.swift */; };
 		CBCC3E302E2EAFB2006618A8 /* SearchableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */; };
+		CBD1DAF42E4B2E8500716579 /* HapticsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD1DAF32E4B2E8500716579 /* HapticsBootCamp.swift */; };
 		CBD28CE92E3FCED4003801C1 /* DragGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD28CE82E3FCED4003801C1 /* DragGestureBootCamp.swift */; };
 		CBD28CEB2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD28CEA2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift */; };
 		CBDB85362DDBA1F10007F538 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB85352DDBA1F10007F538 /* VStackView.swift */; };
@@ -194,6 +199,10 @@
 		CB5DB50B2E15B80D00A3D1B6 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		CB5DCD842E1D8DFB00E71F39 /* AsyncAwaitBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootCamp.swift; sourceTree = "<group>"; };
 		CB5DCD862E1D966F00E71F39 /* TaskBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootCamp.swift; sourceTree = "<group>"; };
+		CB6345FD2E4A3B15005B1582 /* MaskingViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskingViewBootCamp.swift; sourceTree = "<group>"; };
+		CB6346012E4A70A7005B1582 /* SoundBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBootCamp.swift; sourceTree = "<group>"; };
+		CB6346032E4A766F005B1582 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		CB6346052E4A7674005B1582 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		CB6372C22DFB46A900356C44 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		CB6372C42DFB4F8300356C44 /* TextEditerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditerView.swift; sourceTree = "<group>"; };
 		CB6D2E5A2DE8CE55008B6F3D /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
@@ -241,6 +250,7 @@
 		CBC79CED2DE77F9D00203C80 /* AnimationViewWithTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewWithTiming.swift; sourceTree = "<group>"; };
 		CBC79CEF2DE787F700203C80 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		CBCC3E2F2E2EAFB2006618A8 /* SearchableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBootCamp.swift; sourceTree = "<group>"; };
+		CBD1DAF32E4B2E8500716579 /* HapticsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootCamp.swift; sourceTree = "<group>"; };
 		CBD28CE82E3FCED4003801C1 /* DragGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootCamp.swift; sourceTree = "<group>"; };
 		CBD28CEA2E3FD58E003801C1 /* ExampleScreenDrageGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreenDrageGesture.swift; sourceTree = "<group>"; };
 		CBDB85352DDBA1F10007F538 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
@@ -503,6 +513,24 @@
 			path = Badges;
 			sourceTree = "<group>";
 		};
+		CB6345FC2E4A3AF7005B1582 /* MaskingView */ = {
+			isa = PBXGroup;
+			children = (
+				CB6345FD2E4A3B15005B1582 /* MaskingViewBootCamp.swift */,
+			);
+			path = MaskingView;
+			sourceTree = "<group>";
+		};
+		CB6346002E4A7095005B1582 /* SoundBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				CB6346012E4A70A7005B1582 /* SoundBootCamp.swift */,
+				CB6346052E4A7674005B1582 /* tada.mp3 */,
+				CB6346032E4A766F005B1582 /* badum.mp3 */,
+			);
+			path = SoundBootCamp;
+			sourceTree = "<group>";
+		};
 		CB6372C12DFB469A00356C44 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +687,9 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CBD1DAF22E4B2E6700716579 /* HapticsBootCamp */,
+				CB6346002E4A7095005B1582 /* SoundBootCamp */,
+				CB6345FC2E4A3AF7005B1582 /* MaskingView */,
 				CB534AD82E3E59B0006E81FC /* SwiftUIGesture */,
 				CBE3A91E2E1C364600FDE923 /* SwiftConcurrency */,
 				CB6F0D3E2E19A7F000EDBA18 /* ControlGroupMenu */,
@@ -754,6 +785,14 @@
 				CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */,
 			);
 			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		CBD1DAF22E4B2E6700716579 /* HapticsBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				CBD1DAF32E4B2E8500716579 /* HapticsBootCamp.swift */,
+			);
+			path = HapticsBootCamp;
 			sourceTree = "<group>";
 		};
 		CBDB85342DDBA0D40007F538 /* Stacks */ = {
@@ -1006,6 +1045,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB3F4EB2DD26850006A98F8 /* Assets.xcassets in Resources */,
+				CB6346062E4A7674005B1582 /* tada.mp3 in Resources */,
+				CB6346042E4A766F005B1582 /* badum.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1046,6 +1087,7 @@
 				CBEED5492DE2386000BF1F05 /* SafeAreaWithScrollView.swift in Sources */,
 				CB0F40D42E01DDD300173F9B /* PickerMenuExample.swift in Sources */,
 				CBA697FF2E34124700B2102F /* AsyncStreamBootCamp.swift in Sources */,
+				CB6346022E4A70A7005B1582 /* SoundBootCamp.swift in Sources */,
 				CBB3F4EE2DD26878006A98F8 /* TextView.swift in Sources */,
 				CB700A312E04928000E53774 /* PageTabBarView.swift in Sources */,
 				CB5DB4F12E1502AD00A3D1B6 /* TextSelectionView.swift in Sources */,
@@ -1062,6 +1104,7 @@
 				CBEEF44C2E09C23500A33754 /* OnAppearsView.swift in Sources */,
 				CB944B022E0F1A9E0081D01F /* AppStorageView.swift in Sources */,
 				CBE7500E2E14673800FFB9E6 /* OnboardingView.swift in Sources */,
+				CB6345FE2E4A3B15005B1582 /* MaskingViewBootCamp.swift in Sources */,
 				CB1FDB462DDE4D45007C4347 /* InitializerAndEnumView.swift in Sources */,
 				CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */,
 				CB5DB5082E15862F00A3D1B6 /* FocusStateView.swift in Sources */,
@@ -1099,6 +1142,7 @@
 				CBB3F4E92DD26850006A98F8 /* ContentView.swift in Sources */,
 				CBB3F4F02DD27255006A98F8 /* ShapesView.swift in Sources */,
 				CB5DCD872E1D966F00E71F39 /* TaskBootCamp.swift in Sources */,
+				CBD1DAF42E4B2E8500716579 /* HapticsBootCamp.swift in Sources */,
 				CB2E4EE72E2819E600C46E3C /* ActorBootCamp.swift in Sources */,
 				CB6F0D372E195E4A00EDBA18 /* AnyLayoutView.swift in Sources */,
 				CBBFC4912DF0B62E00961BC9 /* ActionSheetView.swift in Sources */,
