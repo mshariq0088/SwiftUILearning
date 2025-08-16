@@ -21,7 +21,8 @@ struct SwiftUILearningApp: App {
            // FocusStateView()
             //SubmitTextFieldView()
             //ActorBootCamp()
-            MagnificationGestureBootCamp()
+            //MagnificationGestureBootCamp()
+            LocalNotificationBootCamp()
         }
     }
 }
