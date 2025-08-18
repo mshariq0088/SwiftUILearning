@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CB07394C2E505BCA00D3F63A /* LocalNotificationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB07394B2E505BCA00D3F63A /* LocalNotificationBootCamp.swift */; };
-		CB07394E2E5062B500D3F63A /* BindingVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB07394D2E5062B500D3F63A /* BindingVariable.swift */; };
 		CB09DB612DDCF7CD00BE30F7 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */; };
 		CB09DB632DDCFAE000BE30F7 /* SpacerWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */; };
 		CB0F40CF2E01D5DC00173F9B /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F40CE2E01D5DC00173F9B /* ToggleButton.swift */; };
@@ -39,6 +38,7 @@
 		CB31489D2E18597A00F31EF9 /* ResizableSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */; };
 		CB32ABA62DDF958F00B83C31 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */; };
 		CB32ABB42DDFA00D00B83C31 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */; };
+		CB37CE0C2E51954D007A28FC /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB37CE0B2E51954D007A28FC /* ArrayBootcamp.swift */; };
 		CB406DA82E2B91560012F35D /* AsyncPublisherBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */; };
 		CB406DB62E2C0FFB0012F35D /* StrongSelfBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */; };
 		CB406DB82E2C18CA0012F35D /* MVVMBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */; };
@@ -155,7 +155,6 @@
 		CB01009E2DD253DD005B1BA1 /* SwiftUILearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0100A82DD253DD005B1BA1 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB07394B2E505BCA00D3F63A /* LocalNotificationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootCamp.swift; sourceTree = "<group>"; };
-		CB07394D2E5062B500D3F63A /* BindingVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingVariable.swift; sourceTree = "<group>"; };
 		CB09DB602DDCF7CD00BE30F7 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		CB09DB622DDCFAE000BE30F7 /* SpacerWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerWithImages.swift; sourceTree = "<group>"; };
 		CB0F40CE2E01D5DC00173F9B /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
@@ -186,6 +185,7 @@
 		CB31489C2E18597A00F31EF9 /* ResizableSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetView.swift; sourceTree = "<group>"; };
 		CB32ABA52DDF958F00B83C31 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 		CB32ABB32DDFA00D00B83C31 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
+		CB37CE0B2E51954D007A28FC /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
 		CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootCamp.swift; sourceTree = "<group>"; };
 		CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfBootCamp.swift; sourceTree = "<group>"; };
 		CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootCamp.swift; sourceTree = "<group>"; };
@@ -342,7 +342,6 @@
 			isa = PBXGroup;
 			children = (
 				CB07394B2E505BCA00D3F63A /* LocalNotificationBootCamp.swift */,
-				CB07394D2E5062B500D3F63A /* BindingVariable.swift */,
 			);
 			path = LocalPushNotifications;
 			sourceTree = "<group>";
@@ -472,6 +471,14 @@
 				CB31489A2E18514400F31EF9 /* ToolBarVIew.swift */,
 			);
 			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		CB37CE0A2E51951C007A28FC /* Sort-Filter-Map */ = {
+			isa = PBXGroup;
+			children = (
+				CB37CE0B2E51954D007A28FC /* ArrayBootcamp.swift */,
+			);
+			path = "Sort-Filter-Map";
 			sourceTree = "<group>";
 		};
 		CB534AD82E3E59B0006E81FC /* SwiftUIGesture */ = {
@@ -700,6 +707,7 @@
 		CBB3F4E82DD26850006A98F8 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				CB37CE0A2E51951C007A28FC /* Sort-Filter-Map */,
 				CB07394A2E505BAE00D3F63A /* LocalPushNotifications */,
 				CBD1DAF22E4B2E6700716579 /* HapticsBootCamp */,
 				CB6346002E4A7095005B1582 /* SoundBootCamp */,
@@ -1167,6 +1175,7 @@
 				CB8228992E0337DE008F78F3 /* SliderView.swift in Sources */,
 				CBCC3E302E2EAFB2006618A8 /* SearchableBootCamp.swift in Sources */,
 				CBEED54F2DE24B0D00BF1F05 /* StateVariableView.swift in Sources */,
+				CB37CE0C2E51954D007A28FC /* ArrayBootcamp.swift in Sources */,
 				CB5DB50A2E15B45700A3D1B6 /* SubmitTextFieldView.swift in Sources */,
 				CB1A84BF2E1EEABB00621681 /* AsyncLetBootCamp.swift in Sources */,
 				CB31489B2E18514400F31EF9 /* ToolBarVIew.swift in Sources */,
@@ -1189,7 +1198,6 @@
 				CB31489D2E18597A00F31EF9 /* ResizableSheetView.swift in Sources */,
 				CBB3F4EA2DD26850006A98F8 /* SwiftUILearningApp.swift in Sources */,
 				CBEABB652DF0C5AD00636F83 /* ContextMenuView.swift in Sources */,
-				CB07394E2E5062B500D3F63A /* BindingVariable.swift in Sources */,
 				CB2F31C32DE6311700A96DC6 /* TernaryOperator.swift in Sources */,
 				CBDB85382DDBA2C10007F538 /* HStackView.swift in Sources */,
 				CB5DB4EB2E14FA3700A3D1B6 /* AsyncImageView.swift in Sources */,
