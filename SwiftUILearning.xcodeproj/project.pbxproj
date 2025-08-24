@@ -42,6 +42,7 @@
 		CB406DA82E2B91560012F35D /* AsyncPublisherBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */; };
 		CB406DB62E2C0FFB0012F35D /* StrongSelfBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */; };
 		CB406DB82E2C18CA0012F35D /* MVVMBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */; };
+		CB40A27B2E5B5E7600925D15 /* FormBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40A27A2E5B5E7600925D15 /* FormBootCamp.swift */; };
 		CB534ADA2E3E5D3C006E81FC /* LongPressGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB534AD92E3E5D3C006E81FC /* LongPressGestureBootCamp.swift */; };
 		CB534ADC2E3E6B51006E81FC /* MagnificationGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB534ADB2E3E6B51006E81FC /* MagnificationGestureBootCamp.swift */; };
 		CB534ADE2E3E721B006E81FC /* RotationGestureBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB534ADD2E3E721B006E81FC /* RotationGestureBootCamp.swift */; };
@@ -189,6 +190,7 @@
 		CB406DA72E2B91560012F35D /* AsyncPublisherBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootCamp.swift; sourceTree = "<group>"; };
 		CB406DB52E2C0FFB0012F35D /* StrongSelfBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfBootCamp.swift; sourceTree = "<group>"; };
 		CB406DB72E2C18CA0012F35D /* MVVMBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootCamp.swift; sourceTree = "<group>"; };
+		CB40A27A2E5B5E7600925D15 /* FormBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormBootCamp.swift; sourceTree = "<group>"; };
 		CB534AD92E3E5D3C006E81FC /* LongPressGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootCamp.swift; sourceTree = "<group>"; };
 		CB534ADB2E3E6B51006E81FC /* MagnificationGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootCamp.swift; sourceTree = "<group>"; };
 		CB534ADD2E3E721B006E81FC /* RotationGestureBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootCamp.swift; sourceTree = "<group>"; };
@@ -481,6 +483,14 @@
 			path = "Sort-Filter-Map";
 			sourceTree = "<group>";
 		};
+		CB40A2792E5B5E5700925D15 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				CB40A27A2E5B5E7600925D15 /* FormBootCamp.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
 		CB534AD82E3E59B0006E81FC /* SwiftUIGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -739,6 +749,7 @@
 		CBB3F4EC2DD2685C006A98F8 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CB40A2792E5B5E5700925D15 /* Form */,
 				CB9B59162E41299200F3A629 /* GeometryReader */,
 				CB5DB4F82E150B8E00A3D1B6 /* Badges */,
 				CB5DB4F22E15049800A3D1B6 /* ButtonStyles */,
@@ -1151,6 +1162,7 @@
 				CB5DB4FA2E150B9A00A3D1B6 /* BadgesView.swift in Sources */,
 				CB6372C52DFB4F8300356C44 /* TextEditerView.swift in Sources */,
 				CB8F390A2E30095D00FAD7BB /* PhotoPickerBootCamp.swift in Sources */,
+				CB40A27B2E5B5E7600925D15 /* FormBootCamp.swift in Sources */,
 				CBEED5472DE234A300BF1F05 /* SafeAreaView.swift in Sources */,
 				CB5DB4EE2E1500AD00A3D1B6 /* BackgroundMaterialsView.swift in Sources */,
 				CBDB853F2DDBB2A10007F538 /* PaddingView.swift in Sources */,
